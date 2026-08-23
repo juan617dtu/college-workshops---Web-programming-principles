@@ -1,0 +1,19 @@
+body {
+  margin: 20px;
+}
+
+nav {
+  background-color: #110f13;
+  height: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
