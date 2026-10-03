@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juan Cuéllar</title>
+        <meta name="description" 
+        content="Juan Cuéllar - Computer Programmer and Software Developer. Explore my projects, skills, and experience.">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <nav class="main-nav" aria-label="Main navigation">
+            <div class="container nav-container">
+                <a href="index.html" class="logo">
+                    <img src="../images/dinosaur-svgrepo-com.svg" alt="Juan Cuéllar">
+                </a>
+                <button type="button" class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+                    ☰
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>   
+            </div>
+        </nav>
+        <header id="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1>I'm <span class="typed"></span></h1>
+                    <p>Juan Cuéllar - Software developer, tester, designer, and technical support engineer</p>
+                </div>
+            </div>
+        </header>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="../images/20260819_104057.jpg" alt="Juan Cuéllar">
+                    </div>
+                    <div class="about-description">
+                        <p class="about-intro">
+                            I am a software developer with a math certificate and a computer programming diploma from Canada.
+                            I have worked as a technical support engineer and software tester, 
+                            and participated in web and software development projects.
+                            I also have experience in teaching coding lessons.
+                        </p>
+                        <p>
+                            I have used C, C++, Python, HTML, CSS, and JavaScript for my projects,
+                            and SQL for troubleshooting and technical issues investigations,
+                            but I also feel comfortable in languages such as C# and Java.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="services-grid">
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>Software development languages</h3>
+                        <p>Experience with C, C++, and Python.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>Web development</h3>
+                        <p>Utilizing HTML, CSS, and JavaScript.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>SQL databases</h3>
+                        <p> Installation of Microsoft SQL Server, and SQL queries for client configurations and CRUD operations.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>College diploma</h3>
+                        <p>in Computer Programming.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>Problem diagnosis and root cause analysis</h3>
+                        <p>Strong hardware and software troubleshooting abilities.</p>
+                    </article>
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true">✓</span>
+                        <h3>Languages</h3>
+                        <p>Spanish, English and basic French.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Contact information</h2>
+                        <address>
+                            <p>Bogotá, Colombia</p>
+                            <p><a href="tel:+573114860112">+57 311-486-0112</a></p>
+                            <p><a href="mailto:juancuellartapias@gmail.com">juancuellartapias@gmail.com</a></p>
+                        </address>
+                    </div>
+                    <form id="contact-form" action="https://formspree.io/f/mrpbvwbw" method="post">
+                        <h2>Email me</h2>
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <label for="name">Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        autocomplete="name"
+                                        required
+                                        minlength="2"
+                                    >
+                                </div>
+                                <div class="form-field">
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        autocomplete="email"
+                                        required
+                                    >
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <label for="subject">Subject</label>
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    required
+                                >
+                            </div>
+                            <div class="form-field">
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="8"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                            <p id="form-status" role="status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <div class="container">
+                <nav class="footer-social-links" aria-label="Social Media">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/juan617dtu" aria-label="GitHub">
+                                <img src="../images/github-142-svgrepo-com.svg" alt="Juan's Github">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/juan-cuellar-tapias" aria-label="LinkedIn">
+                                <img src="../images/linkedin-icon-2-logo-svgrepo-com.svg" alt="Juan's LinkedIn">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p>&copy; 2026 Juan Cuéllar. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="../javascript/main.js"></script>
+        <script src="../javascript/contactForm.js"></script>
+    </body>
+</html>
